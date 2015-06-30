@@ -25,6 +25,7 @@ Rails.application.routes.draw do
 
   resources :categories, only: :index do
     resources :lessons
+    resources :words
   end
   resources :lessons do
     resources :lesson_words

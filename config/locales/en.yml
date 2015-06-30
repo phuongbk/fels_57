@@ -93,3 +93,10 @@ en:
     lesson_word:
       correct: "O"
       wrong: "X" 
+  words:
+    filter_form:
+    category: "Category"
+    learned: "Learned"
+    not_learned: "Not learned"
+    all: "All"
+    filter: "Filter"

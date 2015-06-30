@@ -20,3 +20,7 @@ activity_status:
   unfollow: "Unfollow"
   follow: "Follow"
 words_per_lesson: 20
+type_category:
+  learned: "learned"
+  not_learned: "not_learned"
+  all: "all_words"
