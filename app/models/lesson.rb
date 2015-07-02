@@ -11,6 +11,8 @@ class Lesson < ActiveRecord::Base
   before_create :add_word
   before_save :update_correct_number
 
+  scope :unfinish_lessons, ->{joins(:lesson_words).where lesson_words: {answer_id: nil}}
+
   private
   def add_word
     self.words = category.words.random(user)
